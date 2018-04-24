@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 100%;
+  font-family: Metrophobic, Sans-serif;
+}
+body {
+	padding: 5rem;
+	background: url(https://snag.gy/WKpkYO.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.header {
+	width: 100%;
+	color: #e6ffff;
+}
+.header__intro {
+	text-align: center;
+	font-size: 3.3rem;
+	letter-spacing: 0rem;
+}
+.header__menu {
+	padding: 0;
+	text-align: center;
+	font-size: 1.3rem;
+}
+.header__description,
+.section__introduce {
+	text-align: center;
+	font-size: 2rem;
+}
+.section__introduce {
+	width: 100%;
+	color: #e6ffff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+	display: inline-block;
+	position: relative;
+	margin: 5%;
+}
+a {
+	position: relative;
+	text-decoration: none;
+	color: #1ab2ff;
+}
+a:hover {
+	color: #ebfafa;
+	text-shadow: 0px 1px 0px #fff;
+}
+p {
+	color: #1ab2ff;;
+}
